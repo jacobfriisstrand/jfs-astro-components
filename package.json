@@ -1,5 +1,9 @@
 {
   "name": "jfs-astro-components",
+  "workspaces": [
+    "demo",
+    "packages/*"
+  ],
   "version": "0.0.1",
   "type": "module",
   "exports": {
