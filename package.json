@@ -1,20 +1,22 @@
 {
   "name": "jfs-astro-components",
+  "description": "A minimal component library for Astro. Created to enhance my learning experience of creating npm packages and enhance my own workflow when working with Astro.",
   "workspaces": [
     "demo",
     "packages/*"
   ],
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jacobfriisstrand/jfs-astro-components#readme",
   "type": "module",
   "exports": {
     ".": "./index.ts"
   },
   "files": [
-    "src",
-    "index.ts"
+    "index.ts",
+    "MyAstroComponent.astro"
   ],
   "keywords": [
-    "astro-component"
+    "astro-component-library"
   ],
   "scripts": {},
   "devDependencies": {
